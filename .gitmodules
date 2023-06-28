@@ -25,3 +25,6 @@
 [submodule "mods/ReplayMod"]
 	path = mods/ReplayMod
 	url = https://github.com/ReplayMod/ReplayMod.git
+[submodule "mods/Not-So-Essential"]
+	path = mods/Not-So-Essential
+	url = https://github.com/Scherso/NotSoEssential

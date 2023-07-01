@@ -87,7 +87,7 @@ RUN apt-get install -yq fish \
 RUN apt-get clean -y && rm -rf /tmp/scripts
 
 # Add Packwiz
-RUN apt-get install golang -y
+RUN apt-get -y install golang
 RUN go install github.com/packwiz/packwiz@latest
 
 # Mount for docker-in-docker 

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=3, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="glass">
+            <img src="images/fulllogo.png" alt="Metis" class="title">
+            <a href="wiki.html" class="wikilink">
+                <img src="images/MetisTransparent.png" class="wikiiamge">
+                <h1 class="wiki">METIS Wiki</h1>
+            </a>
+            <a href="projects.html" class="projects">View our other projects!</a>
+            </div>
+        </div>
+        <div class="devbanner">! The METIS website is currently under development.</div>
+    </div>
+    <div class="devbanner">! The METIS website is currently under development.</div>
+    <div class="supportcontainer">
+        <a href="https://ko-fi.com/T6T7KV790" class="support">Buy us a coffee!</a>
+    </div>
+</body>
+<style>
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+div.parent {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: stretch;
+    /* background-image: url(images/2023-06-11_19.47.13.png); */
+    background-image: url(images/2023-06-12_19.26.11.png);
+    background-size: cover;
+}
+
+div.glass {
+    margin-left: 30px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.599);
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+
+img.title {
+    width: 500px;;
+    height: 270px;
+}
+
+.wikilink {
+    width: 200px;
+    height: 250px;
+    background-color: rgba(37, 37, 37, 0.904);
+    transition: 500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+    flex-wrap: wrap;
+}
+
+.wikilink:hover {
+    background-color: rgba(37, 37, 37, 0.641);
+    transition: 500ms;
+    transform: scale(1.01);
+}
+
+.wikiiamge {
+    margin: 0px;
+    padding: 0px;
+}
+
+a.projects {
+    width: max-content;
+    height: max-content;
+    font-size: xx-large;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: rgba(37, 37, 37, 0.904);
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 2px;
+    transition: 700ms;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a.projects:hover {
+    transition: 300ms;
+    background-color: rgba(37, 37, 37, 0.641);
+    padding: 20px;
+}
+
+div.devbanner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 2px;
+}
+
+div.supportcontainer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: max-content;
+    height: max-content;
+}
+
+a.support {
+    width: max-content;
+    height: max-content;
+    padding: 5px;
+    color: white;
+    transition: 900ms;
+    background-color: rgb(37, 37, 37);
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    border-radius: 3px;
+}
+
+a.support:hover {
+    transition: 300ms;
+    padding: 7px;
+    background-color: rgb(54, 54, 54);
+    font-weight: bold;
+}
+</style>
+</html>

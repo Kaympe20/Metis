@@ -1,0 +1,13 @@
+name = "ReplayMod"
+filename = "replaymod-1.8.9-2.6.15.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Nv2fQJo5/versions/z86I98cl/replaymod-1.8.9-2.6.15.jar"
+hash-format = "sha1"
+hash = "39e58c13acd56cdb9d0559b99f1c649df8ef72f5"
+
+[update]
+[update.modrinth]
+mod-id = "Nv2fQJo5"
+version = "z86I98cl"

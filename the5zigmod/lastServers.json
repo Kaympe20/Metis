@@ -1,0 +1,14 @@
+{
+  "lastServers": [
+    {
+      "Name": "eu.the5zig.mod.server.GameServer",
+      "Value": {
+        "configName": "hypixel",
+        "host": "mc.hypixel.net",
+        "port": 25565,
+        "time": 1683156592470
+      }
+    }
+  ],
+  "MAX_SERVER_COUNT": 5
+}

@@ -1,0 +1,13 @@
+name = "Metis"
+author = "Kaympe20"
+version = "1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "25c00d2045e829d1086bc30d99282f7f946f6f445e0537c24758bd9c470c9f90"
+
+[versions]
+forge = "11.15.1.2318"
+minecraft = "1.8.9"

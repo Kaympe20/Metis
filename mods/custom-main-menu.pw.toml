@@ -1,0 +1,13 @@
+name = "Custom Main Menu"
+filename = "CustomMainMenu-MC1.8.9-2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a87041d6f98fa9364648f84cfefe10f4b4c0f308"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2280558
+project-id = 226406

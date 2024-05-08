@@ -1,0 +1,160 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "modpack:packlogo.png",
+            "posX" : 0,
+            "posY" : -70,
+            "width" : 220,
+            "height" : 131,
+            "alignment" : "center"
+        },
+
+        "buttonbg":
+        {
+            "image" : "modpack:buttonbg.png",
+            "posX" : 15,
+            "posY" : -250,
+            "width" : 200,
+            "height" : 1200,
+            "alignment" : "left_center"
+        }
+    },
+
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 40,
+            "posY" : -70,
+            "width" : 150,
+            "height" : 20,
+            "alignment" : "left_center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 40,
+            "posY" : -50,
+            "width" : 150,
+            "height" : 20,
+            "alignment" : "left_center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : 40,
+            "posY" : -30,
+            "width" : 75,
+            "height" : 20,
+            "alignment" : "left_center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : 116,
+            "posY" : -30,
+            "width" : 75,
+            "alignment" : "left_center",
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 40,
+            "posY" : 50,
+            "width" : 150,
+            "height" : 20,
+            "alignment" : "left_center",
+            "action" :
+            {
+                "type" : "quit"
+            }
+        },
+
+        "lang":
+        {
+            "text" : "Languages",
+            "posX" : 40,
+            "posY" : -10,
+            "width" : 150,
+            "height" : 20,
+            "alignment" : "left_center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        "replay":
+        {
+            "text" : "Replays",
+            "posX" : 40,
+            "posY" : 30,
+            "width" : 150,
+            "height" : 20,
+            "alignment" : "left_center",
+            "wrappedButton" : 17890234
+        },
+        "cpm":
+        {
+            "text" : "Player Model Editor",
+            "posX" : 40,
+            "posY" : 10,
+            "width" : 150,
+            "height" : 20,
+            "alignment" : "left_center",
+             "wrappedButton" : 99
+        }
+    },
+
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Created by Champe20 and Slsrocket",
+            "posX" : -183,
+            "posY" : -10,
+            "color" : -5,
+            "alignment" : "bottom_right"
+        }
+    },
+
+    "other":
+  {
+        "panorama":
+        {
+            "images" : "modpack:panorama/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : false
+        }
+    }
+}

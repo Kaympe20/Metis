@@ -1,0 +1,13 @@
+name = "NoFov"
+filename = "NoFov-MC1.8-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8e55baf7adac9e22edc34edba441094b41df11ee"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2228033
+project-id = 227965
